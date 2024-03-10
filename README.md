@@ -1,7 +1,7 @@
 # GitHub-Search-App-
 🌟 Welcome to the GitHub Search App repository! This React application utilizes the GitHub API to search for users and display their information in a clean and user-friendly interface. Axios is employed for making asynchronous requests to the API.
 
-🌟 Explore the Demo: [GitHub Search App Demo](#) 
+🌟 Explore the Demo: [GitHub Search App Demo](https://nik6348.github.io/Github-Search-App/) 
 
 ✨ Features:
 - Search for GitHub users by username.
@@ -21,4 +21,4 @@ Contributions are welcome! Feel free to fork the project, improve existing featu
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 🌟 Explore the Demo:
-[GitHub Search App Demo](#) 
+[GitHub Search App Demo](https://nik6348.github.io/Github-Search-App/) 
