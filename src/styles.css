@@ -1,0 +1,138 @@
+/* Common Styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; 
+}
+
+.github-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 8px; 
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Github Display Section */
+.github-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.github-user-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.github-user-info:hover {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.github-user-info h2 {
+  color: #333;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.github-user-info img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.github-user-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
+
+/* Github Search Section */
+.github-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+  text-align: center;
+  background-color: #fff; 
+  transition: box-shadow 0.3s;
+}
+
+.github-search-container:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.github-search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8; 
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.github-search-form:hover {
+  background-color: #fff;
+}
+
+.github-search-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2; 
+}
+
+.github-search-form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #373ae7;
+  color: #fff;
+}
+
+.github-search-form button:hover {
+  background-color: #1f24b5;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
